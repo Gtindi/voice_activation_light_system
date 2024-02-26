@@ -19,7 +19,7 @@ convenience.
 <li>Android app `Arduino BlueControl` available on google playstore </li>
 </ol>
 
-- The objective of this application is to identify voice commands and transmit them through Serial Communication HC-05 to the Arduino Board. Make sure that your HC-05 Bluetooth module is appropriately paired with the device from which you intend to send commands. Double-check the Bluetooth pairing settings on your device and ensure a stable connection with the HC-05 module.
+- The objective of this application (`Arduino BlueControl`) is to identify voice commands and transmit them through Serial Communication HC-05 to the Arduino Board. Make sure that your HC-05 Bluetooth module is appropriately paired with the device from which you intend to send commands. Double-check the Bluetooth pairing settings on your device and ensure a stable connection with the HC-05 module.
 
 
 `NB: Before uploading the sketch below, ensure that you disconnect the RX and TX connections from the Arduino to avoid potential uploading errors.`

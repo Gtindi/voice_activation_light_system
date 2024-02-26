@@ -10,7 +10,7 @@ convenience.
 
 ## System Components:
 <ol>
-<li>Arduino Mega (ATmega2560)</li>
+<li>Arduino Mega / Arduino Uno</li>
 <li>HC-05 Bluetooth Module</li>
 <li>Breadboard</li>
 <li>LED Lights/ Light Bulbs</li>

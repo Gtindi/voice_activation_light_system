@@ -24,7 +24,7 @@ convenience.
 
 `NB: Before uploading the sketch below, ensure that you disconnect the RX and TX connections from the Arduino to avoid potential uploading errors.`
 
-`Circuit Diagram: `
+<b>Circuit Diagram:</b>
 
 ![circuit](circuit.png)
 

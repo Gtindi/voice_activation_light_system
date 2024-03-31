@@ -5,50 +5,88 @@ This code is written in Arduino programming language and is intended for an Ardu
 
 // Declare light variables and voice
 String voice;
-const int RED = 6;
-const int GREEN = 5;
-const int BLUE = 7;
-const int YELLOW = 4;
+const int RED = 10;
+const int GREEN = 9;
+const int BLUE = 12;
+const int YELLOW = 11;
+const int RED0 = 5;
+const int GREEN0 = 6;
+const int BLUE0 = 8;
+const int YELLOW0 = 7;
+const int BLUE1 = 3;
+const int YELLOW1 = 4;
 
 // Create a function to turn on the lights
 void RedOn(){
   digitalWrite(RED, HIGH);
+  digitalWrite(RED0, HIGH);
 }
+
 void GreenOn(){
   digitalWrite(GREEN, HIGH);
+  digitalWrite(GREEN0, HIGH);
 }
+
 void BlueOn(){
   digitalWrite(BLUE, HIGH);
+  digitalWrite(BLUE0, HIGH);
+  digitalWrite(BLUE1, HIGH);
 }
+
 void YellowOn(){
   digitalWrite(YELLOW, HIGH);
+  digitalWrite(YELLOW0, HIGH);
+  digitalWrite(YELLOW1, HIGH);
 }
 void AllOn() {
   digitalWrite(RED, HIGH);
   digitalWrite(GREEN, HIGH);
   digitalWrite(BLUE, HIGH);
   digitalWrite(YELLOW, HIGH);
+  digitalWrite(RED0, HIGH);
+  digitalWrite(GREEN0, HIGH);
+  digitalWrite(BLUE0, HIGH);
+  digitalWrite(BLUE1, HIGH);
+  digitalWrite(YELLOW0, HIGH);
+  digitalWrite(YELLOW1, HIGH);
 }
 
 // Turns off the lights
 void RedOff(){
   digitalWrite(RED, LOW);
+  digitalWrite(RED0, LOW);
 }
+
 void GreenOff(){
   digitalWrite(GREEN, LOW);
+  digitalWrite(GREEN0, LOW);
 }
+
 void BlueOff(){
   digitalWrite(BLUE, LOW);
+  digitalWrite(BLUE0, LOW);
+  digitalWrite(BLUE1, LOW);
 }
+
 void YellowOff(){
   digitalWrite(YELLOW, LOW);
+  digitalWrite(YELLOW0, LOW);
+  digitalWrite(YELLOW1, LOW);
 }
+
 void AllOff() {
   digitalWrite(RED, LOW);
   digitalWrite(GREEN, LOW);
   digitalWrite(BLUE, LOW);
   digitalWrite(YELLOW, LOW);
+  digitalWrite(RED0, LOW);
+  digitalWrite(GREEN0, LOW);
+  digitalWrite(BLUE0, LOW);
+  digitalWrite(BLUE1, LOW);
+  digitalWrite(YELLOW0, LOW);
+  digitalWrite(YELLOW1, LOW);
 }
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -57,6 +95,10 @@ void setup() {
   pinMode(GREEN, OUTPUT);
   pinMode(BLUE, OUTPUT);
   pinMode(YELLOW, OUTPUT);
+  pinMode(RED0, OUTPUT);
+  pinMode(GREEN0, OUTPUT);
+  pinMode(BLUE0, OUTPUT);
+  pinMode(YELLOW0, OUTPUT);
 }
 
 void loop() {

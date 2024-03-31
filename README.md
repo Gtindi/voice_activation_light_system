@@ -1,5 +1,4 @@
 # Voice Activation Light System
-`Author:` Gabriel Tindi
 
 This project focuses on creating a voice-controlled lighting system to enhance user convenience using Arduino programming language.
 
